@@ -37,7 +37,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 40px;
   border-radius: 50px;
   right: 15px;
-  bottom: 15px;
+  bottom: 80px;
   background: #149ddd;
   color: #fff;
   transition: display 0.5s ease-in-out;
@@ -191,7 +191,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mobile-nav-toggle i {
-  color: #149ddd;
+  color: #000;
 }
 
 .mobile-nav-active {
@@ -203,7 +203,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mobile-nav-active .mobile-nav-toggle i {
-  color: #000;
+  color: #149ddd;
 }
 
 /*--------------------------------------------------------------
