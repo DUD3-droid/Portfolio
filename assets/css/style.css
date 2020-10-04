@@ -102,7 +102,7 @@ h1, h2, h3, h4, h5, h6 {
   background: #212431;
   color: #fff;
   line-height: 1;
-  padding: 8px 0;
+  padding: 10px 0;
   margin-right: 4px;
   border-radius: 50%;
   text-align: center;
@@ -115,6 +115,11 @@ h1, h2, h3, h4, h5, h6 {
   background: #149ddd;
   color: #fff;
   text-decoration: none;
+}
+
+#header .profile .social-links a:hover .fab{
+  transform: rotate(360deg) scale(1.5);
+  transition-duration: 1s;
 }
 
 #main {
@@ -712,13 +717,40 @@ section {
   transition: all 0.3s ease-in-out;
 }
 
+.contact .info .contact-detail{
+  width: 100%;
+}
+
 .contact .info h4 {
-  padding: 0 0 0 60px;
+  padding: 5px 0 0 115px;
   font-size: 22px;
   font-weight: 600;
   margin-bottom: 5px;
   color: #050d18;
+  transform: scale(1.5);
+  transition: 0.9s linear;
 }
+
+.contact .info .contact-detail:hover h4 {
+  padding: 0 0 0 50px;
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #050d18;
+  transform: translateY(0) scale(1);
+}
+
+.contact .info .detail{
+  opacity: 0;
+  transform: translateY(10000px);
+  transition: 0 ;
+}
+
+.contact .info .contact-detail:hover .detail{
+opacity: 1;
+transform: translateY(0);
+}
+
 
 .contact .info p {
   padding: 0 0 10px 60px;
