@@ -1,4 +1,4 @@
-<a href="https://dud3-droid.github.io/Portfolio/">Portfolio</a>
+<h1> <a href="https://dud3-droid.github.io/Portfolio/">Portfolio</a></h1>
 
 This is the portfolio wesite of DUD3-droid a.k.a. Vighnesh Gupta
 
